@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab_3.2</string>
+    <string name="spinner_ct">Швидкість навчання</string>
+    <string name="spinner_d">Дедлайн</string>
+    <string name="res">Тут виведеться результат</string>
+    <string name="button_calc">Розрахувати</string>
+    <string name="textOff">Часовий(c)</string>
+    <string name="textOn">Ітераційний</string>
+    <string name="forSwitch">Виберіть тип дедлайну</string>
+    <string name="forSpinner">Виберіть швидкість навчання</string>
+</resources>
