@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
                 W1 += delta * point[0] * speed;
                 W2 += delta * point[1] * speed;
             }
-            if (i <= deadline * 2) {
+            if (i >= deadline * 2) {
                 end = System.nanoTime();
                 return "Дедлайн у " + deadline + " ітерацій досягнут, обрив циклу! W1 = " +
                         W1 + ", W2 = " + W1 + ", час - " + (end - start) + " наносекунд.";
